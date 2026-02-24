@@ -1,16 +1,12 @@
-# Homebrew Tap
-
-Homebrew formulae for [BrennerSpear](https://github.com/BrennerSpear) tools.
-
-## Install
+# Homebrew Tap for Tycho
 
 ```bash
-brew tap BrennerSpear/tap
-brew install agent-tool-docs
+brew tap tychohq/tap
+brew install skilldoc
 ```
 
 ## Available Formulae
 
 | Formula | Description |
 |---------|-------------|
-| `agent-tool-docs` | Auto-generate agent-optimized CLI docs from --help output |
+| `skilldoc` | Generate agent-optimized skill docs from CLI --help output |
