@@ -1,26 +1,26 @@
 class Skilldoc < Formula
   desc "Generate agent-optimized skill docs from CLI --help output"
   homepage "https://github.com/tychohq/skilldoc"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tychohq/skilldoc/releases/download/v0.2.1/skilldoc-darwin-arm64.tar.gz"
-      sha256 "5c49a01719d7cebc6a9710503f2154faeaa1b0d8b0342a99c2020e966cb3dc27"
+      url "https://github.com/tychohq/skilldoc/releases/download/v0.3.0/skilldoc-darwin-arm64.tar.gz"
+      sha256 "a3691a15844be1734a415b6cc57ff5a1341f0834f245714007bb666fa479f427"
     else
-      url "https://github.com/tychohq/skilldoc/releases/download/v0.2.1/skilldoc-darwin-x64.tar.gz"
-      sha256 "503e28d5f5f6374a5aac26a0fd22f0991987a056079e236f43aa7f2eb2c0da0d"
+      url "https://github.com/tychohq/skilldoc/releases/download/v0.3.0/skilldoc-darwin-x64.tar.gz"
+      sha256 "86563d7e49dcba8f02a0422464522748178cd6dfd2464217ca964877ee93467a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tychohq/skilldoc/releases/download/v0.2.1/skilldoc-linux-arm64.tar.gz"
-      sha256 "ce83330d9bc55e19a563b4c9f78d115f99d0fa06b41dfe9784656b5fd5517f1b"
+      url "https://github.com/tychohq/skilldoc/releases/download/v0.3.0/skilldoc-linux-arm64.tar.gz"
+      sha256 "91a74a2caa1d8db7e9b5102fe412a2b5dcf5187c04b5d4e02cb6a2bef29a0221"
     else
-      url "https://github.com/tychohq/skilldoc/releases/download/v0.2.1/skilldoc-linux-x64.tar.gz"
-      sha256 "7bd686c31abe299db1c804cec29e62ee62a960ebf45c3f13adae0a906b6f9250"
+      url "https://github.com/tychohq/skilldoc/releases/download/v0.3.0/skilldoc-linux-x64.tar.gz"
+      sha256 "1441ea679360e7f29807e081d277d4b2349d9f5701880a6cc65e3c5dc0e8e4e8"
     end
   end
 
